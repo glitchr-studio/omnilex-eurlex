@@ -1,0 +1,4 @@
+
+{ "head": { "link": [], "vars": ["celex", "date"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "celex": { "type": "literal", "datatype": "http://www.w3.org/2001/XMLSchema#string", "value": "02016R0679-20160504" }	, "date": { "type": "literal", "datatype": "http://www.w3.org/2001/XMLSchema#date", "value": "2016-05-04" }} ] } }

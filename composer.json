@@ -1,0 +1,46 @@
+{
+    "name": "omnilex/eurlex",
+    "type": "library",
+    "description": "Omnilex EUR-Lex: EU law and the case law of the Court of Justice from the Publications Office's open endpoint (Cellar: SPARQL and resources by CELEX number) - an act in its consolidated version at a date, one article of it, a judgment by ECLI, the links between acts and judgments, what is new - no key.",
+    "keywords": [
+        "law",
+        "eu-law",
+        "eur-lex",
+        "cellar",
+        "celex",
+        "ecli",
+        "sparql",
+        "omnilex"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnilex": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnilex\\Eurlex\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnilex\\Eurlex\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
